@@ -21,19 +21,17 @@ const About = () => {
                 </p>
                 <p>
                     My core expertise includes the MERN stack, Java, and Python, along with practical knowledge in building secure REST APIs, authentication systems (JWT, OAuth), and scalable backend solutions.
-                    I have worked on real-world projects involving machine learning, computer vision, and mobile app development. Currently, I contribute as a part-time software developer at Seekers Cloud Inc, where I develop production-ready features, debug complex issues, and collaborate in an agile environment.
                 </p>
             </div>
             <div className="about-skills">
-                <div className="about-skill"><p>HTML ,CSS & JavaScript</p><hr style={{width:"50%"}} /></div>
-                <div className="about-skill"><p>MongoDB ,Express.Js ,React.Js & Node.Js</p><hr style={{width:"70%"}} /></div>
+                <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}} /></div>
+                <div className="about-skill"><p>MERN Stack</p><hr style={{width:"70%"}} /></div>
                 <div className="about-skill"><p>Python </p><hr style={{width:"50%"}} /></div>
-                <div className="about-skill"><p>AI and ML</p><hr style={{width:"70%"}} /></div>
                 <div className="about-skill"><p>JavaFX</p><hr style={{width:"70%"}} /></div>
             </div>
         </div>
       </div>
-      <div className="about-achievement">
+      <div className="about-achievements">
         <div className="about-achievement">
             <h1>10+</h1>
             <p>YEARS OF EXPERIENCE</p>
