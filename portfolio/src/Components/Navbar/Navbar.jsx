@@ -1,10 +1,20 @@
 import React from 'react'
 import './Navbar.css'
+import NameLogo from '../../assets/NameLogo.png'
+
 
 const Navbar = () => {
   return (
-    <div>
-      
+    <div className='navbar'>
+      <img src={NameLogo} alt="" />
+      <ul className='nav-menu'>
+        <li>Home</li>
+        <li>About Me</li>
+        <li>Services</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+      <div className="nav-connect">Connect with me</div>
     </div>
   )
 }
