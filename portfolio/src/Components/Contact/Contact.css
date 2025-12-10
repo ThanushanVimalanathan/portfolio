@@ -120,3 +120,7 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+.contact-detail p:hover{
+    color: #cb6e09;
+}

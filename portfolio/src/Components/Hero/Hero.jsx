@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
       <img src={profile1} alt="" />
-      <h1><span>I'm Thanushaan,</span> fullstack & Python Developer based in Sri Lanka.</h1>
+      <h1><span>I'm Thanushan,</span> fullstack & Python Developer based in Sri Lanka.</h1>
       <p>
         I am an enthusiastic and detail-oriented IT undergraduate with strong hands-on experience in full-stack development and AI/ML. 
       </p>
