@@ -112,4 +112,14 @@
         line-height: 32px;
         max-width: 300px;
     }
+
+    .services-readmore img{
+        width: 20px;
+
+    }
+
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
 }
