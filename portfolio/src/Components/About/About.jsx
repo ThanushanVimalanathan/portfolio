@@ -8,7 +8,6 @@ const About = () => {
     <div id='about' className='about'>
       <div className="about-title">
         <h1>About me</h1>
-        <img src={theme_pattern} alt="" />
       </div>
       <div className="about-sections">
         <div className="about-left">
@@ -17,19 +16,21 @@ const About = () => {
         <div className="about-right">
             <div className="about-para">
                 <p>
-                    I am an enthusiastic and detail-oriented IT undergraduate with strong hands-on experience in full-stack development and AI/ML.   
+                    IT undergraduate and part-time software developer passionate about building smart, scalable solutions. I specialize in the MERN stack, Python, and AI/ML technologies like TensorFlow, PyTorch, and scikit-learn.  
                 </p>
                 <p>
-                    My core expertise includes the MERN stack, Java, and Python, along with practical knowledge in building secure REST APIs, authentication systems (JWT, OAuth), and scalable backend solutions.
+                    I enjoy crafting secure backend systems, seamless REST APIs, and data-driven applications.
+                     With hands-on experience in modern web and mobile development, I love turning complex problems into practical solutions.
+                     Always learning, always building.
                 </p>
             </div>
             <div className="about-skills">
                 <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}} /></div>
                 <div className="about-skill"><p>MERN Stack</p><hr style={{width:"80%"}} /></div>
-                <div className="about-skill"><p>Python </p><hr style={{width:"70%"}} /></div>
+                <div className="about-skill"><p>Python </p><hr style={{width:"80%"}} /></div>
                 <div className="about-skill"><p>JavaFX</p><hr style={{width:"60%"}} /></div>
                 <div className="about-skill"><p>MySQL</p><hr style={{width:"60%"}} /></div>
-                <div className="about-skill"><p>PowerBi</p><hr style={{width:"80%"}} /></div>
+                <div className="about-skill"><p>AI/ML</p><hr style={{width:"70%"}} /></div>
             </div>
         </div>
       </div>

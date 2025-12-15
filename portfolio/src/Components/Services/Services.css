@@ -16,6 +16,12 @@
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
+    color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
 }
 
 .services-title img{
@@ -23,6 +29,13 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 80px;
 }
 
 .services-format{
@@ -35,13 +48,6 @@
     border: 2px solid white;
     transition: 0.4s;
     cursor: pointer;
-}
-
-.services-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 80px;
 }
 
 .services-format h3{
@@ -70,8 +76,10 @@
     display: flex;
     gap: 20px;
     align-items: center;
+    justify-content: left;
     margin-top: 20px;
 }
+
 
 .services-format:hover{
     border:2px solid #ff00ff;

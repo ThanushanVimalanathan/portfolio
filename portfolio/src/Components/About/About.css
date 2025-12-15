@@ -20,15 +20,18 @@
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
+
+    color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
 }
 
-.about-title img{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
 
-}
+
+
 
 .about-sections{
     display: flex;
@@ -74,7 +77,7 @@
    width: 50%;
    height: 8px;
    border-radius: 50px;
-   background: linear-gradient(267deg, #DF8908 -5.09% ,#B923E1 60.06%); 
+   background: linear-gradient(267deg, #0849df -5.09% ,#B923E1 60.06%); 
 }
 
 .about-achievements{
@@ -95,7 +98,7 @@
 .about-achievement h1{
     font-size: 60px;
     font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 50.41%, #B415ff 90%);
+    background: linear-gradient(270deg, #152bcf 50.41%, #B415ff 90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

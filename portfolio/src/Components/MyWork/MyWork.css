@@ -14,13 +14,16 @@
     padding: 0px 30px;
     font-size: 80px;
     font-weight: 600;
+    color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
 }
 
-.mywork-title img{
-    position:absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+.my-img{
+    border-radius: 20px;
 }
 
 .mywork-container{

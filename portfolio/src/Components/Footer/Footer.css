@@ -75,6 +75,16 @@
     transition: 0.3s;
 }
 
+.nav-menu li:hover{
+    
+     color: #70cfef;
+        text-shadow: 0 0 10px #5d086a,
+        0 0 20px #7926b5,
+        0 0 40px #03bcf4;
+       
+
+}
+
 @media(max-width:769px){
     .footer{
         margin: 50px 70px;
